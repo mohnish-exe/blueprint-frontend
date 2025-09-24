@@ -1,66 +1,39 @@
-TRIONN Frontend Project
+# trionn-frontend
 
-This project is a frontend implementation of the TRIONN website – a creative digital agency that specializes in UI/UX, branding, and web/mobile app design.
-The project showcases a modern, responsive, and interactive website with smooth animations, video integration, and portfolio sections.
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-🚀 Features
+## Project Overview
 
-Responsive Design – Optimized for desktop, tablet, and mobile.
+This project is a **frontend implementation** of the TRIONN® website – a creative digital agency that specializes in UI/UX, branding, and web/mobile app design.  
+It showcases a modern, responsive, and interactive website with smooth animations, video integration, portfolio highlights, and client testimonials.  
 
-Modern UI/UX – Clean, minimal, and interactive animations.
+The main goals of this project are:  
+- To demonstrate modern **UI/UX practices**.  
+- To provide a **responsive** and **accessible** design.  
+- To showcase **portfolio projects** and client reviews effectively.  
 
-Portfolio Showcase – Highlights recent work with images and case studies.
+### Technologies Used
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)  
+- [CSS3 / SCSS](https://developer.mozilla.org/en-US/docs/Web/CSS)  
+- [JavaScript (ES6)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+- [Next.js](https://nextjs.org/)  
 
-Video Integration – Hero section video for engaging storytelling.
+---
 
-Client Testimonials – Includes video and text reviews.
+## Getting Started
 
-Social Media Links – Integrated Dribbble, LinkedIn, Instagram, Behance, and Facebook.
+Follow these instructions to set up and run the project locally.
 
-🛠️ Tech Stack
+### Prerequisites
 
-HTML5 – Semantic and accessible structure.
+- [Node.js](https://nodejs.org/) (version >= 16)  
+- [npm](https://www.npmjs.com/) (version >= 8) or [Yarn](https://yarnpkg.com/)  
+- [Git](https://git-scm.com/)  
 
-CSS3 / SCSS – Responsive layouts and animations.
+### Installation
 
-JavaScript (ES6) – Interactive components and transitions.
-
-Next.js (build artifacts in _next/) – For routing and optimized builds.
-
-📂 Project Structure
-.
-├── index.html        # Main entry point
-├── /assets           # Images, videos, and icons
-├── /_next            # Next.js build files
-├── /styles           # CSS/SCSS files
-└── /scripts          # JavaScript functionality
-
-⚡ Getting Started
-
-Clone the repository:
-
-git clone https://github.com/your-username/trionn-frontend.git
-cd trionn-frontend
-
-
-Open index.html in your browser:
-
-open index.html   # (macOS)
-start index.html  # (Windows)
-
-
-(Optional) If running with Next.js:
-
-npm install
-npm run dev
-
-📸 Preview
-
-🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to fork this repo and submit a PR.
-
-📜 License
-
-This project is licensed under the MIT License – feel free to use and modify it for your own projects.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/trionn-frontend.git
+   cd trionn-frontend
