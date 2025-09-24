@@ -1,67 +1,66 @@
-# blueprint-frontend
+TRIONN Frontend Project
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+This project is a frontend implementation of the TRIONN website – a creative digital agency that specializes in UI/UX, branding, and web/mobile app design.
+The project showcases a modern, responsive, and interactive website with smooth animations, video integration, and portfolio sections.
 
-## Project Overview
+🚀 Features
 
-> Describe the purpose of this project. What problem does it solve? What are the main goals?  Provide a brief overview of the technologies used.  For example:
+Responsive Design – Optimized for desktop, tablet, and mobile.
 
-This project serves as a foundational blueprint for modern frontend applications. It aims to provide a scalable and maintainable architecture, incorporating best practices for UI development, state management, and testing. Built with [React](https://reactjs.org/), [Redux](https://redux.js.org/), and [Material-UI](https://material-ui.com/), it offers a robust starting point for building complex web applications.  The goal is to accelerate development and ensure code quality through a well-defined structure and comprehensive documentation.
+Modern UI/UX – Clean, minimal, and interactive animations.
 
-## Getting Started
+Portfolio Showcase – Highlights recent work with images and case studies.
 
-> Provide detailed instructions on how to set up the project locally. This should include prerequisites, installation steps, and any necessary configuration.
+Video Integration – Hero section video for engaging storytelling.
 
-### Prerequisites
+Client Testimonials – Includes video and text reviews.
 
-- [Node.js](https://nodejs.org/) (version >= 16)
-- [npm](https://www.npmjs.com/) (version >= 8) or [Yarn](https://yarnpkg.com/) (version >= 1.22)
-- [Git](https://git-scm.com/)
+Social Media Links – Integrated Dribbble, LinkedIn, Instagram, Behance, and Facebook.
 
-### Installation
+🛠️ Tech Stack
 
-1.  Clone the repository:
+HTML5 – Semantic and accessible structure.
 
-    bash
-    yarn install
-    2.  > Update the `.env` file with your specific API keys and environment variables.
-    > bash
-yarn start
-> Provide examples of common tasks users might perform.  For example:
+CSS3 / SCSS – Responsive layouts and animations.
 
-This application provides a user interface for managing tasks. Key features include:
+JavaScript (ES6) – Interactive components and transitions.
 
--   **Task Creation:** Users can create new tasks with descriptions, due dates, and priorities.
--   **Task Listing:** Tasks are displayed in a sortable and filterable list.
--   **Task Editing:** Existing tasks can be edited to update details or mark them as complete.
+Next.js (build artifacts in _next/) – For routing and optimized builds.
 
-> Include screenshots illustrating the key features and functionalities.
+📂 Project Structure
+.
+├── index.html        # Main entry point
+├── /assets           # Images, videos, and icons
+├── /_next            # Next.js build files
+├── /styles           # CSS/SCSS files
+└── /scripts          # JavaScript functionality
 
-## Contributing
+⚡ Getting Started
 
-> Provide guidelines for contributing to the project. Include information about code style, testing, and the pull request process.
+Clone the repository:
 
-We welcome contributions to `blueprint-frontend`! Please follow these guidelines:
+git clone https://github.com/your-username/trionn-frontend.git
+cd trionn-frontend
 
-1.  **Code of Conduct:** Please read and adhere to our [Code of Conduct](code_of_conduct.md).
 
-2.  **Reporting Issues:** Before submitting a pull request, please open an issue to discuss the proposed changes.
+Open index.html in your browser:
 
-3.  **Development Process:**
+open index.html   # (macOS)
+start index.html  # (Windows)
 
-    -   Fork the repository.
-    -   Create a new branch for your feature or bug fix.
-    -   Write clear, concise, and well-documented code.
-    -   Write unit tests for your changes.
-    -   Ensure all tests pass.
-    -   Submit a pull request to the `main` branch.
 
-4.  **Code Style:** Follow the existing code style. Use [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) to ensure code consistency.
+(Optional) If running with Next.js:
 
-5.  **Commit Messages:** Use clear and descriptive commit messages.
+npm install
+npm run dev
 
-## License
+📸 Preview
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+🤝 Contributing
 
+Contributions, issues, and feature requests are welcome!
+Feel free to fork this repo and submit a PR.
+
+📜 License
+
+This project is licensed under the MIT License – feel free to use and modify it for your own projects.
