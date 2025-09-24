@@ -65,4 +65,3 @@ We welcome contributions to `blueprint-frontend`! Please follow these guidelines
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Copyright (c) [Year] [Your Name/Organization]
