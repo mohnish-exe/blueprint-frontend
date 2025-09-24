@@ -31,9 +31,44 @@ Follow these instructions to set up and run the project locally.
 - [npm](https://www.npmjs.com/) (version >= 8) or [Yarn](https://yarnpkg.com/)  
 - [Git](https://git-scm.com/)  
 
-### Installation
+## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/trionn-frontend.git
-   cd trionn-frontend
+1.  Clone the repository:
+
+    bash
+    yarn install
+    
+2.  > Update the '.env' file with your specific API keys and environment variables.
+    > bash
+    > yarn start
+
+This application provides a user interface for managing tasks. Key features include:
+
+-   **Task Creation:** Users can create new tasks with descriptions, due dates, and priorities.
+-   **Task Listing:** Tasks are displayed in a sortable and filterable list.
+-   **Task Editing:** Existing tasks can be edited to update details or mark them as complete.
+
+## Contributing
+
+We welcome contributions to `blueprint-frontend`! Please follow these guidelines:
+
+1.  **Code of Conduct:** Please read and adhere to our [Code of Conduct](code_of_conduct.md).
+
+2.  **Reporting Issues:** Before submitting a pull request, please open an issue to discuss the proposed changes.
+
+3.  **Development Process:**
+
+    -   Fork the repository.
+    -   Create a new branch for your feature or bug fix.
+    -   Write clear, concise, and well-documented code.
+    -   Write unit tests for your changes.
+    -   Ensure all tests pass.
+    -   Submit a pull request to the `main` branch.
+
+4.  **Code Style:** Follow the existing code style. Use [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) to ensure code consistency.
+
+5.  **Commit Messages:** Use clear and descriptive commit messages.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
